@@ -8,9 +8,10 @@ Ce mini projet est une simple application de gestion des tâches (To Do List) d�
 - Marquer une tâche comme terminée
 - Design responsive
 
-## 🖼️ Aperçu
+##  Aperçu
 
-<img width="614" alt="image" src="https://github.com/user-attachments/assets/2dd23837-c25d-43f9-8414-f7d020df1a15" />
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/ec8246d9-5ffb-4147-9b51-b2fabdafb2ad" />
+
 
 
 ## 🔗 Lien du projet en ligne
