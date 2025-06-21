@@ -1,0 +1,113 @@
+   *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+               background: linear-gradient(180deg,#ffffff, #f8f7f673);
+             height: 98vh;
+             width: 100%;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #8381C2;
+            text-align: center;
+            padding: 30px;
+            text-shadow: 10px 10px 35px rgba(0, 0, 0, 0.3);
+            
+        }
+        .container{
+            width: 50%;
+            margin: auto;
+         
+            margin-top: 10px;
+            padding: 30px;
+            
+        }
+        #newtask{
+            
+           text-align: center;
+           padding: 15px;
+        }
+        #newtask input{
+            width: 50%;
+            padding: 20px 10px;
+            border-radius: 10px;
+            border: none;
+            border: 2px solid #8381C2;
+        }
+         #newtask input:focus{
+            outline: none;
+           border-color:#4D4E50 ;
+         }
+        #newtask button{
+            width: 20%;
+             padding: 20px 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #8381C2;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            
+        }
+        #newtask button:hover{
+            background-color: #9f9ec8c3;
+
+        }
+        #tasks{
+              width: 68%;
+            margin: auto;
+            background-color: #8381C2;
+            border-radius: 10px;
+           
+            padding:15px;
+           
+        }
+        .line{
+           
+            text-decoration: line-through;
+        }
+        .task{
+            background-color:rgba(255, 235, 205, 0.304);
+            padding: 15px;
+             border-radius: 10px;
+             margin-top: 5px;
+            display: flex;
+             justify-content: space-between;
+        }
+        span{
+            cursor: pointer;
+            color: #fff;
+            font-size: 20px;
+
+        }
+        .delete{
+            padding: 10px;
+            background-color: beige;
+            border: none;
+             border-radius: 10px;
+              transition: transform 0.3s ease;
+        }
+        .delete:hover{
+             transform: scale(1.1);
+        }
+        @media (max-width: 768px) {
+    .container,
+    #tasks {
+        width: 90%;
+    }
+
+    #newtask input,
+    #newtask button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #newtask {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
